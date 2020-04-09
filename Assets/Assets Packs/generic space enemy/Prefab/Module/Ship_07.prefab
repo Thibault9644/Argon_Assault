@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4301618257826614}
   - component: {fileID: 33320748614889338}
   - component: {fileID: 23737017157804400}
-  - component: {fileID: 3321964548217852646}
+  - component: {fileID: 9135171147658104519}
   m_Layer: 0
   m_Name: Ship_07
   m_TagString: Untagged
@@ -78,7 +78,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &3321964548217852646
+--- !u!114 &9135171147658104519
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -90,3 +90,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0860f32432894cdebf7b787f3b74566, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathFX: {fileID: 2164923735384089876, guid: 8e090049675854cb9a5a61c87cf6684b, type: 3}
+  parent: {fileID: 0}
+  scorePerHit: 1000
